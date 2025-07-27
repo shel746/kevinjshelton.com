@@ -1,0 +1,31 @@
+{
+  "name": "kevinjshelton-website",
+  "version": "1.0.0",
+  "description": "Kevin Shelton's personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -s -l 3000",
+    "start": "npx serve . -s -l 3000",
+    "preview": "npx serve . -s -l 8080",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel",
+    "validate": "npx html-validate index.html blog/index.html",
+    "optimize": "npx imagemin images/* --out-dir=images/optimized"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "static-site"
+  ],
+  "author": "Kevin Shelton <kevinsheltonj@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://kevinjshelton.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shel746/kevinjshelton.com.git"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16"
+  }
+}
