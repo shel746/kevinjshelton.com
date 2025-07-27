@@ -1,0 +1,289 @@
+#chartdiv {
+	width	: 100%;
+	height	: 500px;
+}
+
+#selector{
+	background: #FDF6E3;
+}
+.chartdiv{
+	font-size: 16px;
+	color: #000000;
+}
+
+body {
+  line-height: 2.5rem;
+  font-family: sans-serif;
+  font-size: 100%;
+  color: hsl(0, 0%, 95%);
+  background-image: linear-gradient(to bottom, hsl(0, 0%, 0%), hsl(0, 0%, 0%));
+}
+
+section {
+	padding: 2vh 0;
+	justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+h2 {
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+}
+
+p {
+	font-size: 1.6em;
+}
+
+a {
+	text-decoration: none;
+	color: hsl(180, 75%, 75%);
+	transition: color 400ms;
+}
+/*when you hover over with a mouse*/
+a:hover {
+	color: hsl(180, 100%, 75%);
+}*/
+
+/* ==== Home ==== */
+
+/* Ensure #home section takes up full height of viewport */
+#home {
+  display: flex;
+}
+
+#prof-container {
+  display: flex;
+  justify-content: center; /* Centers image horizontally within container */
+  align-items: center; /* Centers image vertically within container */
+  /* Optional: Set a width and height for the container if needed */
+  width: 20%;
+  height: 20%;
+  padding: 2vh 0;
+}
+
+#prof-pic {
+  width: 20%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+/* Image styling */
+#prof-pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: auto;
+  background-color: white;
+}
+
+#home nav {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.5em;
+	padding-top: 30px;
+	/*margin-top: 70px;*/
+}
+
+#home nav a {
+	width: 20%;
+	border: 3px solid lightgrey;
+	border-left: none;
+	border-right: none;
+	/*box-shadow: inset 0 2px 2px -2px hsla(0, 0%, 0%, 0.7), inset 0 -2px 2px -2px hsla(0, 0%, 0%, 0.7);*/
+	color: white;
+	text-align: center;
+}
+#home #mydiv{
+	max-width: 1200px;
+	max-height: 1200px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#home #mydiv a{
+	color: red;
+}
+
+/* ===== WorldMap ==== */
+
+#worldmap {
+	/*background-color: hsl(200,90%,95%);
+	background-image: radial-gradient(hsl(200,90%,95%), hsl(200,90%,95%));*/
+/*	background-image: linear-gradient(to left, hsl(180, 40%, 45%),hsl(270, 50%, 35%));
+*/}
+
+#worldmap .container {
+	background-color: hsla(200, 95%, 40%, 0.7);
+	border-radius: 5px;
+	box-shadow: 0 0 2px hsl(200, 95%, 40%);
+}
+
+#worldmap h3 {
+	width: 300px;
+	margin: 1rem auto;
+	text-align: center;
+	font-weight: lighter;
+	color: black;
+/*	background-image: linear-gradient(to left, hsl(1, 79%, 76%), hsl(197, 67%, 20%));
+*/}
+#worldmap h2{
+	color:white;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* ===== Experience ==== */
+
+#experience {
+/*	background-image: linear-gradient(to left, hsl(270, 50%, 35%), hsl(180, 40%, 45%));
+*/}
+
+#experience .item {
+	margin-bottom: 30px;
+	padding: 20px;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	border-radius: 10px;
+	box-shadow: inset 0 0 2px hsla(0, 0%, 0%, 0.7);
+  border: 1px solid white;
+}
+
+#experience .item img {
+	float: left;
+	width: 235px;
+	height: 110px;
+	margin-right: 60px;
+}
+#experience .item #cisco{
+	float: left;
+	width: 215px;
+	height: 110px;
+	margin-right: 80px;
+}
+
+#experience .item #usc{
+	float: left;
+	width: 275px;
+	height: 80px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+#experience .item h4 {
+	margin: 0 0 10px;
+	font-size: 1.75rem;
+}
+
+#experience .item ul {
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+}
+
+#experience .item li {
+	margin: 10px 0;
+	margin-left: 30px;
+	font-size: 1.35rem;
+}
+
+
+/* ===== Projects ==== */
+
+#projects {
+	/*background-image: url(../images/projects.jpg);*/
+/*	background-image: linear-gradient(to left, hsl(180, 40%, 45%),hsl(270, 50%, 35%));
+*/	/*background-color: hsla(0, 0%, 0%, 0.8);
+	background-blend-mode: darken;*/
+}
+
+/*#projects .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+	max-width: 1000px;
+}
+
+#projects .project {
+	max-width: 300px;
+}
+
+#projects .project img {
+	width: 100%;
+}*/
+
+/* ===== Contact ==== */
+
+#contact {
+	min-height: 0;
+	padding: 5vh 0;
+	text-align: center;
+	font-size: 2.5rem;
+	color: white;
+}
+
+#contact *[class^="icon"] {
+	margin: 0 20px;
+	color: white;
+}
+
+#projects .container{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#projects .item{
+	width: 50%;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#projects .image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  height: auto;
+  background-color: white;
+}
+
+#projects .overlay {
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  left: 5%;
+  right: 0;
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: hsla(0, 100%, 25%, 1.0);
+  border-radius: 10px;
+}
+
+#projects .item:hover .overlay {
+  opacity: 1;
+}
+
+#projects .text {
+  color: white;
+  font-size: 2vw;
+  position: relative;
+  top: 20%;
+}
+#projects #one-text{
+  line-height: 120%;
+}
+
